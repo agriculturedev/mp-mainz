@@ -93,6 +93,17 @@
       "tools": {
         "name": "Werkzeuge",
         "children": {
+          "modeler3D": {
+              "name": "translate#common:menu.tools.modeler3D",
+              "gmlId": "gmlId",
+              "updateAllLayers": false,
+              "highlightStyle": {
+                  "color": "#787777",
+                  "alpha": 1,
+                  "silhouetteColor": "#E20D0F",
+                  "silhouetteSize": 4
+              }
+          },
           "gfi": {
             "name": "Informationen abfragen",
             "icon": "bi-info-circle-fill",
