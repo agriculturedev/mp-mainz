@@ -226,18 +226,34 @@
     },
     "Fachdaten": {
       "Ordner": [
-        {
-          "Titel": "Geojson",
-          "Ordner": [],
-          "Layer": [
-            {
-              "id": "asdasdasdasdasd"
-            }
-          ],
-          "isFolderSelectable": true
-        }
+
       ],
-      "Layer": []
+      "Layer": [
+        {
+          "id": "r6cn3bn9po5m4y6ru94966sa"
+        },
+        {
+          "id": "r6cn3bn9po5m4y6ru94966sb"
+        },
+        {
+          "id": "r6cn3bn9po5m4y6ru94966sc"
+        },
+        {
+          "id": "r6cn3bn9po5m4y6ru94966sd"
+        },
+        {
+          "id": "r6cn3bn9po5m4y6ru94966se"
+        },
+        {
+          "id": "r6cn3bn9po5m4y6ru94966sf"
+        },
+        {
+          "id": "r6cn3bn9po5m4y6ru94966sg"
+        },
+        {
+          "id": "r6cn3bn9po5m4y6ru94966sg"
+        }
+      ]
     }
   }
 }

@@ -63,10 +63,73 @@
     "supported": ["2D", "3D"]
   },
   {
-    "id": "asdasdasdasdasd",
+    "id": "r6cn3bn9po5m4y6ru94966sa",
     "typ": "GeoJSON",
     "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/baeume.geojson",
     "name": "Baeume",
+    "gfiAttributes" : "showAll",
+    "layerAttribution" : "nicht vorhanden",
+    "legend" : true
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sb",
+    "typ": "GeoJSON",
+    "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/behinderten_p.geojson",
+    "name": "Behindertenparkplaetze",
+    "gfiAttributes" : "showAll",
+    "layerAttribution" : "nicht vorhanden",
+    "legend" : true
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sc",
+    "typ": "GeoJSON",
+    "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/Denkmalzone.geojson",
+    "name": "Denkmalzone",
+    "gfiAttributes" : "showAll",
+    "layerAttribution" : "nicht vorhanden",
+    "legend" : true
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sd",
+    "typ": "GeoJSON",
+    "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/flaechen_themen.geojson",
+    "name": "Flaechen Themen",
+    "gfiAttributes" : "showAll",
+    "layerAttribution" : "nicht vorhanden",
+    "legend" : true
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966se",
+    "typ": "GeoJSON",
+    "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/Ladestation.geojson",
+    "name": "Ladestation",
+    "gfiAttributes" : "showAll",
+    "layerAttribution" : "nicht vorhanden",
+    "legend" : true
+  }, 
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sf",
+    "typ": "GeoJSON",
+    "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/Lampe_uber_Strasse.geojson",
+    "name": "Lampe ueber Strasse",
+    "gfiAttributes" : "showAll",
+    "layerAttribution" : "nicht vorhanden",
+    "legend" : true
+  }, 
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sg",
+    "typ": "GeoJSON",
+    "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/Lampe.geojson",
+    "name": "Lampe",
+    "gfiAttributes" : "showAll",
+    "layerAttribution" : "nicht vorhanden",
+    "legend" : true
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sh",
+    "typ": "GeoJSON",
+    "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/Litfasssaule.geojson",
+    "name": "Litfasssaule",
     "gfiAttributes" : "showAll",
     "layerAttribution" : "nicht vorhanden",
     "legend" : true
