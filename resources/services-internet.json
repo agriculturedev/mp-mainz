@@ -110,7 +110,7 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966sf",
     "typ": "GeoJSON",
-    "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/Lampe_uber_Strasse.geojson",
+    "url": "https://localhost:9001/portal/mp-mainz/resources/geojson/Lampe_uber_Stra-e.geojson",
     "name": "Lampe ueber Strasse",
     "gfiAttributes" : "showAll",
     "layerAttribution" : "nicht vorhanden",
