@@ -64,7 +64,7 @@
   },
   {
     "id": "asdasdasdasdasd",
-    "type": "GEOJSON",
+    "typ": "GeoJSON",
     "url": "./geojson/baeume.geojson",
     "name": "Baeume",
     "gfiAttributes" : "showAll",
