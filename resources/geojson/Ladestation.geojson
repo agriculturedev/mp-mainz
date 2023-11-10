@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Ladestation",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32632" } },
+"features": [
+{ "type": "Feature", "properties": { "FOLIE": "92", "OSCHL": "5772", "Erfassung": "09.09.2019", "Erfasser": "Andreas Altmann", "PunktNr": "556", "Hoehe": "90.150", "Text": null, "Fach_ID": null }, "geometry": { "type": "Point", "coordinates": [ 447589.098, 5538755.398, 90.15 ] } },
+{ "type": "Feature", "properties": { "FOLIE": "92", "OSCHL": "5772", "Erfassung": "14.11.2018", "Erfasser": "Andreas Altmann", "PunktNr": "1655", "Hoehe": "85.490", "Text": null, "Fach_ID": null }, "geometry": { "type": "Point", "coordinates": [ 448139.27, 5538758.27099999972, 85.49 ] } },
+{ "type": "Feature", "properties": { "FOLIE": "92", "OSCHL": "5772", "Erfassung": "12.10.2022", "Erfasser": "Andreas Altmann", "PunktNr": "230", "Hoehe": "86.270", "Text": null, "Fach_ID": null }, "geometry": { "type": "Point", "coordinates": [ 448148.782, 5538471.343, 86.27 ] } },
+{ "type": "Feature", "properties": { "FOLIE": "92", "OSCHL": "5772", "Erfassung": "29.05.2018", "Erfasser": "Andreas Altmann", "PunktNr": "116", "Hoehe": "86.160", "Text": null, "Fach_ID": null }, "geometry": { "type": "Point", "coordinates": [ 448186.243, 5538842.234, 86.16 ] } }
+]
+}
