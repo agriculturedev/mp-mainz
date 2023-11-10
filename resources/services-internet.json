@@ -65,7 +65,7 @@
   {
     "id": "asdasdasdasdasd",
     "typ": "GeoJSON",
-    "url": "./geojson/baeume.geojson",
+    "url": "portal/mp-mainz/resources/geojson/baeume.geojson",
     "name": "Baeume",
     "gfiAttributes" : "showAll",
     "layerAttribution" : "nicht vorhanden",
