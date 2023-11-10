@@ -64,12 +64,26 @@
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sa",
-    "typ": "GeoJSON",
-    "url": "https://mainz.elie.de/resources/geojson/baeume.geojson",
     "name": "Baeume",
-    "gfiAttributes" : "showAll",
-    "layerAttribution" : "nicht vorhanden",
-    "legend" : true
+    "visibility": false,
+    "featureCount": "1",
+    "format": "image/png",
+    "gfiAttributes": {
+      "Durchme": "Durchmesser",
+      "Hoehe": "BAUMHOEHE"
+    },
+    "gfiTheme": "default",
+    "tilesize": 512,
+    "transparent": true,
+    "transparency": 0,
+    "typ": "WMS",
+    "layerAttribution": "nicht vorhanden",
+    "url": "https://geo.elie.de/geoserver/wms",
+    "version": "1.3.0",
+    "layers": "mainz:baeume",
+    "legendURL": "",
+    "minScale": "0",
+    "maxScale": "2500000"
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sb",
