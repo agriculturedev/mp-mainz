@@ -21,6 +21,7 @@ const Config = {
     restConf: "./resources/rest-services-internet.json",
     styleConf: "./resources/style_v3.json",
     scaleLine: true,
+    startingMap3D: true,
     mouseHover: {
         numFeaturesToShow: 2,
         infoText: "(weitere Objekte. Bitte zoomen.)"
