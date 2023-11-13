@@ -28,11 +28,11 @@
     "mapView": {
       "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
       "startCenter": [
-        448183.60,
-        5539757.36
+        448020.90,
+        5538555.36
       ],
       "extent": [438683.60, 5529257.36, 458683.60, 5550257.36],
-      "startZoomLevel": 1,
+      "startZoomLevel": 6,
       "options": [
         {
           "resolution": 66.14579761460263,
