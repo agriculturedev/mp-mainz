@@ -65,10 +65,16 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966sa",
     "name": "Baeume",
-    "visibility": false,
+    "visibility": true,
     "featureCount": "1",
     "format": "image/png",
-    "gfiAttributes": "showAll",
+    "gfiAttributes": {
+      "GATTUNG": "GATTUNG",
+      "ST_DURCHM": "ST_DURCHM",
+      "POINT_X": "POINT_X",
+      "POINT_Y": "POINT_Y",
+      "BAUMHOEHE": "BAUMHOEHE"
+    },
     "gfiTheme": "default",
     "tilesize": 512,
     "transparent": true,
@@ -85,10 +91,19 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966sb",
     "name": "Ladestation",
-    "visibility": false,
+    "visibility": true,
     "featureCount": "1",
     "format": "image/png",
-    "gfiAttributes": "showAll",
+    "gfiAttributes": {
+      "FOLIE": "FOLIE",
+      "OSCHL": "OSCHL",
+      "Erfassung": "Erfassung",
+      "Erfasser": "erfasser",
+      "PunktNr": "PunktNr",
+      "Hoehe": "Hoehe",
+      "Text": "Text",
+      "Fach_ID": "Fach_ID"
+    },
     "gfiTheme": "default",
     "tilesize": 512,
     "transparent": true,
@@ -105,10 +120,14 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966sc",
     "name": "Lampe",
-    "visibility": false,
+    "visibility": true,
     "featureCount": "1",
     "format": "image/png",
-    "gfiAttributes": "showAll",
+    "gfiAttributes": {
+      "OSCHL": "OSCHL",
+      "PunktNr": "PunktNr",
+      "Hoehe": "Hoehe"
+    },
     "gfiTheme": "default",
     "tilesize": 512,
     "transparent": true,
@@ -125,10 +144,16 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966sd",
     "name": "Denkmalzone",
-    "visibility": false,
+    "visibility": true,
     "featureCount": "1",
     "format": "image/png",
-    "gfiAttributes": "showAll",
+    "gfiAttributes": {
+      "FOLIE": "FOLIE",
+      "OSCHL": "OSCHL",
+      "Erfassung": "Erfassung",
+      "Erfasser": "erfasser",
+      "Text": "Text"
+    },
     "gfiTheme": "default",
     "tilesize": 512,
     "transparent": true,
@@ -145,10 +170,12 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966se",
     "name": "Behindertenparkplatz",
-    "visibility": false,
+    "visibility": true,
     "featureCount": "1",
     "format": "image/png",
-    "gfiAttributes": "showAll",
+    "gfiAttributes": {
+      "OBJECTID": "OBJECTID"
+    },
     "gfiTheme": "default",
     "tilesize": 512,
     "transparent": true,
@@ -164,11 +191,17 @@
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sf",
-    "name": "flaechen_themen",
-    "visibility": false,
+    "name": "Flaechen Themen",
+    "visibility": true,
     "featureCount": "1",
     "format": "image/png",
-    "gfiAttributes": "showAll",
+    "gfiAttributes": {
+      "OBJECTID": "OBJECTID",
+      "art": "art",
+      "objname": "objname",
+      "Shape_Leng": "Shape_Leng",
+      "Shape_Area": "Shape_Area"
+    },
     "gfiTheme": "default",
     "tilesize": 512,
     "transparent": true,
@@ -184,11 +217,20 @@
   }, 
   {
     "id": "r6cn3bn9po5m4y6ru94966sg",
-    "name": "lampeueberstrasse",
-    "visibility": false,
+    "name": "Lampe ueber Strasse",
+    "visibility": true,
     "featureCount": "1",
     "format": "image/png",
-    "gfiAttributes": "showAll",
+    "gfiAttributes": {
+      "FOLIE": "FOLIE",
+      "OSCHL": "OSCHL",
+      "Erfassung": "Erfassung",
+      "Erfasser": "erfasser",
+      "PunktNr": "PunktNr",
+      "Hoehe": "Hoehe",
+      "Text": "Text",
+      "Fach_ID": "Fach_ID"
+    },
     "gfiTheme": "default",
     "tilesize": 512,
     "transparent": true,
@@ -204,11 +246,20 @@
   }, 
   {
     "id": "r6cn3bn9po5m4y6ru94966sh",
-    "name": "litfasssaeule",
-    "visibility": false,
+    "name": "Litfasssaeule",
+    "visibility": true,
     "featureCount": "1",
     "format": "image/png",
-    "gfiAttributes": "showAll",
+    "gfiAttributes": {
+      "FOLIE": "FOLIE",
+      "OSCHL": "OSCHL",
+      "Erfassung": "Erfassung",
+      "Erfasser": "erfasser",
+      "PunktNr": "PunktNr",
+      "Hoehe": "Hoehe",
+      "Text": "Text",
+      "Fach_ID": "Fach_ID"
+    },
     "gfiTheme": "default",
     "tilesize": 512,
     "transparent": true,
