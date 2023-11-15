@@ -31,7 +31,12 @@
         448020.90,
         5538555.36
       ],
-      "extent": [438683.60, 5529257.36, 458683.60, 5550257.36],
+      "extent": [
+        438683.60,
+        5529257.36,
+        458683.60,
+        5550257.36
+      ],
       "startZoomLevel": 6,
       "options": [
         {
@@ -94,15 +99,15 @@
         "name": "Werkzeuge",
         "children": {
           "modeler3D": {
-              "name": "translate#common:menu.tools.modeler3D",
-              "gmlId": "gmlId",
-              "updateAllLayers": false,
-              "highlightStyle": {
-                  "color": "#787777",
-                  "alpha": 1,
-                  "silhouetteColor": "#E20D0F",
-                  "silhouetteSize": 4
-              }
+            "name": "translate#common:menu.tools.modeler3D",
+            "gmlId": "gmlId",
+            "updateAllLayers": false,
+            "highlightStyle": {
+              "color": "#787777",
+              "alpha": 1,
+              "silhouetteColor": "#E20D0F",
+              "silhouetteSize": 4
+            }
           },
           "gfi": {
             "name": "Informationen abfragen",
@@ -110,7 +115,12 @@
             "active": true,
             "highlightVectorRules": {
               "fill": {
-                "color": [215, 102, 41, 0.9]
+                "color": [
+                  215,
+                  102,
+                  41,
+                  0.9
+                ]
               },
               "image": {
                 "scale": 1.5
@@ -128,8 +138,14 @@
           },
           "measure": {
             "name": "Strecke / Fläche messen",
-            "lineStringUnits": ["m", "km"],
-            "polygonUnits": ["m²", "km²"]
+            "lineStringUnits": [
+              "m",
+              "km"
+            ],
+            "polygonUnits": [
+              "m²",
+              "km²"
+            ]
           },
           "draw": {
             "name": "Zeichnen / Schreiben",
@@ -184,7 +200,10 @@
             "name": "translate#common:menu.views.view01",
             "type": "viewpoint",
             "icon": "bi-bullseye",
-            "center": [51.94831, 14.711238],
+            "center": [
+              51.94831,
+              14.711238
+            ],
             "zoomLevel": 7.456437968949651,
             "altitude": 272.3469798217454,
             "heading": -0.30858728378862876,
@@ -225,9 +244,7 @@
       ]
     },
     "Fachdaten": {
-      "Ordner": [
-
-      ],
+      "Ordner": [],
       "Layer": [
         {
           "id": "r6cn3bn9po5m4y6ru94966sa"
@@ -252,6 +269,14 @@
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sh"
+        }
+      ]
+    },
+    "Fachdaten_3D": {
+      "Ordner": [],
+      "Layer": [
+        {
+          "id": "testing123YAYAYA"
         }
       ]
     }

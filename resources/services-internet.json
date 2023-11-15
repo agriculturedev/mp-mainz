@@ -18,7 +18,10 @@
     "legendURL": "",
     "minScale": "0",
     "maxScale": "2500000",
-    "supported": ["2D", "3D"]
+    "supported": [
+      "2D",
+      "3D"
+    ]
   },
   {
     "id": "02886f50-7bd5-46d3-a763-974213df3431",
@@ -39,7 +42,10 @@
     "legendURL": "",
     "minScale": "0",
     "maxScale": "2500000",
-    "supported": ["2D", "3D"]
+    "supported": [
+      "2D",
+      "3D"
+    ]
   },
   {
     "id": "02886f50-7bd5-46d3-a763-974213df3439",
@@ -60,7 +66,10 @@
     "legendURL": "",
     "minScale": "0",
     "maxScale": "2500000",
-    "supported": ["2D", "3D"]
+    "supported": [
+      "2D",
+      "3D"
+    ]
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sa",
@@ -214,7 +223,7 @@
     "legendURL": "",
     "minScale": "0",
     "maxScale": "2500000"
-  }, 
+  },
   {
     "id": "r6cn3bn9po5m4y6ru94966sg",
     "name": "Lampe ueber Strasse",
@@ -243,7 +252,7 @@
     "legendURL": "",
     "minScale": "0",
     "maxScale": "2500000"
-  }, 
+  },
   {
     "id": "r6cn3bn9po5m4y6ru94966sh",
     "name": "Litfasssaeule",
@@ -272,5 +281,61 @@
     "legendURL": "",
     "minScale": "0",
     "maxScale": "2500000"
+  },
+  {
+    "id": "testing123YAYAYA",
+    "name": "Tree",
+    "visibility": true,
+    "typ": "Entities3D",
+    "entities": [
+      {
+        "url": "https://localhost:9001/portal/mp-mainz/resources/models/beach/high/model.gltf",
+        "attributes": {
+          "name": "simple building in Planten und Blomen"
+        },
+        "latitude": 49.997318,
+        "longitude": 8.272548,
+        "height": 0,
+        "heading": 0,
+        "pitch": 90,
+        "roll": 0,
+        "scale": 2,
+        "allowPicking": true,
+        "show": true
+      },
+      {
+        "url": "https://localhost:9001/portal/mp-mainz/resources/models/beach/high/model.gltf",
+        "attributes": {
+          "name": "simple building in Planten und Blomen"
+        },
+        "latitude": 49.997118,
+        "longitude": 8.272272,
+        "height": 0,
+        "heading": 0,
+        "pitch": 90,
+        "roll": 0,
+        "scale": 2,
+        "allowPicking": true,
+        "show": true
+      },
+      {
+        "url": "https://localhost:9001/portal/mp-mainz/resources/models/beach/high/model.gltf",
+        "attributes": {
+          "name": "simple building in Planten und Blomen"
+        },
+        "latitude": 49.99708,
+        "longitude": 8.27198,
+        "height": 0,
+        "heading": 0,
+        "pitch": 90,
+        "roll": 0,
+        "scale": 2,
+        "allowPicking": true,
+        "show": true
+      }
+    ],
+    "gfiAttributes": {
+      "name": "Name"
+    }
   }
 ]

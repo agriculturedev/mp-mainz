@@ -21,6 +21,19 @@ const Config = {
     restConf: "./resources/rest-services-internet.json",
     styleConf: "./resources/style_v3.json",
     scaleLine: true,
+    cesiumParameter: {
+        fog: {
+            enabled: true,
+            density: 0.0002,
+            screenSpaceErrorFactor: 2.0
+        },
+        fxaa: false,
+        globe: {
+            enableLighting: true,
+            maximumScreenSpaceError: 2,
+            tileCacheSize: 20
+        }
+    },
     startingMap3D: true,
     mouseHover: {
         numFeaturesToShow: 2,
