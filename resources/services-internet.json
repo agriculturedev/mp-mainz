@@ -337,5 +337,57 @@
     "gfiAttributes": {
       "name": "Name"
     }
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966si",
+    "name": "Gebäudemodell (LoD2 - Colors)",
+    "url": "https://mainz.elie.de/resources/tileset/MainzLOD2Colors",
+    "typ": "TileSet3D",
+    "gfiAttributes": "showAll",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "ignore",
+    "cesium3DTilesetOptions": {
+      "maximumScreenSpaceError": 10
+    },
+    "urlIsVisible": true
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sj",
+    "name": "Gebäudemodell (LoD2 - Red Roofs)",
+    "url": "https://mainz.elie.de/resources/tileset/MainzLOD2RedRoofs",
+    "typ": "TileSet3D",
+    "gfiAttributes": "showAll",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "ignore",
+    "cesium3DTilesetOptions": {
+      "maximumScreenSpaceError": 10
+    },
+    "urlIsVisible": true
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sk",
+    "name": "Gebäudemodell (LoD2 - No Lines)",
+    "url": "https://mainz.elie.de/resources/tileset/MainzLOD2NoLines",
+    "typ": "TileSet3D",
+    "gfiAttributes": "showAll",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "ignore",
+    "cesium3DTilesetOptions": {
+      "maximumScreenSpaceError": 10
+    },
+    "urlIsVisible": true
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sl",
+    "name": "Gebäudemodell (LoD3 - No Lines)",
+    "url": "https://mainz.elie.de/resources/tileset/MainzLOD3NoLines",
+    "typ": "TileSet3D",
+    "gfiAttributes": "showAll",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "ignore",
+    "cesium3DTilesetOptions": {
+      "maximumScreenSpaceError": 10
+    },
+    "urlIsVisible": true
   }
 ]

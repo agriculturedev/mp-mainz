@@ -1,0 +1,582 @@
+{
+  "boundingVolume": {
+    "region": [
+      0.144385941,
+      0.872451573,
+      0.144481815,
+      0.872551502,
+      111.3,
+      136.2
+    ]
+  },
+  "geometricError": 6.103515625,
+  "content": {
+    "boundingVolume": {
+      "region": [
+        0.144395757,
+        0.872526076,
+        0.144435632,
+        0.872551502,
+        111.3,
+        136.2
+      ]
+    },
+    "uri": "15/34274/7283.b3dm"
+  },
+  "children": [
+    {
+      "boundingVolume": {
+        "region": [
+          0.144385941,
+          0.87249951,
+          0.144435632,
+          0.872551502,
+          111.3,
+          136.2
+        ]
+      },
+      "geometricError": 3.0517578125,
+      "content": {
+        "boundingVolume": {
+          "region": [
+            0.144395757,
+            0.872526076,
+            0.144435632,
+            0.872551502,
+            111.3,
+            136.2
+          ]
+        },
+        "uri": "16/68548/14566.b3dm"
+      },
+      "children": [
+        {
+          "boundingVolume": {
+            "region": [
+              0.144385941,
+              0.872523478,
+              0.144410502,
+              0.872551346,
+              114.9,
+              132.4
+            ]
+          },
+          "geometricError": 0.0,
+          "content": {
+            "boundingVolume": {
+              "region": [
+                0.144395757,
+                0.872541087,
+                0.144410502,
+                0.872551346,
+                114.9,
+                132.4
+              ]
+            },
+            "uri": "17/137096/29132.b3dm"
+          },
+          "properties": {
+            "mittlGebHoehe_rel": {
+              "valueType": "DOUBLE",
+              "minimum": 14.5,
+              "maximum": 14.5
+            },
+            "Stadtteile_nr": {
+              "valueType": "STRING"
+            },
+            "usage": {
+              "valueType": "STRING"
+            },
+            "yearOfConstruction": {
+              "valueType": "INTEGER",
+              "minimum": 0,
+              "maximum": 0
+            },
+            "description": {
+              "valueType": "STRING"
+            },
+            "storeyHeightsBelowGround": {
+              "valueType": "DOUBLE",
+              "minimum": 0.0,
+              "maximum": 0.0
+            },
+            "OTNR": {
+              "valueType": "INTEGER",
+              "minimum": 1,
+              "maximum": 1
+            },
+            "Str_schl": {
+              "valueType": "STRING"
+            },
+            "datBearbeitung": {
+              "valueType": "STRING"
+            },
+            "Stadtteile_name": {
+              "valueType": "STRING"
+            },
+            "ONR": {
+              "valueType": "STRING"
+            },
+            "measuredHeight": {
+              "valueType": "DOUBLE",
+              "minimum": 17.5,
+              "maximum": 17.5
+            },
+            "Quality": {
+              "valueType": "INTEGER",
+              "minimum": 3,
+              "maximum": 3
+            },
+            "function": {
+              "valueType": "STRING"
+            },
+            "mittlGebHoehe_abs": {
+              "valueType": "DOUBLE",
+              "minimum": 129.41,
+              "maximum": 129.41
+            },
+            "ID": {
+              "valueType": "STRING"
+            },
+            "class": {
+              "valueType": "STRING"
+            },
+            "yearOfDemolition": {
+              "valueType": "INTEGER",
+              "minimum": 0,
+              "maximum": 0
+            },
+            "hausnr": {
+              "valueType": "STRING"
+            },
+            "roofType": {
+              "valueType": "STRING"
+            },
+            "Typ": {
+              "valueType": "STRING"
+            },
+            "Bearbeiter": {
+              "valueType": "STRING"
+            },
+            "creationDate": {
+              "valueType": "STRING"
+            },
+            "Bemerkung": {
+              "valueType": "STRING"
+            },
+            "StoreyHeightsAboveGround": {
+              "valueType": "DOUBLE",
+              "minimum": 2.0,
+              "maximum": 2.0
+            },
+            "Str_name": {
+              "valueType": "STRING"
+            },
+            "groundHeight": {
+              "valueType": "DOUBLE",
+              "minimum": 114.91,
+              "maximum": 114.91
+            },
+            "eaveHeight": {
+              "valueType": "DOUBLE",
+              "minimum": 11.5,
+              "maximum": 11.5
+            },
+            "extLieferant": {
+              "valueType": "STRING"
+            }
+          }
+        },
+        {
+          "boundingVolume": {
+            "region": [
+              0.144405165,
+              0.872523478,
+              0.144435632,
+              0.872547446,
+              111.3,
+              136.2
+            ]
+          },
+          "geometricError": 0.0,
+          "content": {
+            "boundingVolume": {
+              "region": [
+                0.144405165,
+                0.872526135,
+                0.144435632,
+                0.872546507,
+                111.3,
+                136.2
+              ]
+            },
+            "uri": "17/137097/29132.b3dm"
+          },
+          "properties": {
+            "mittlGebHoehe_rel": {
+              "valueType": "STRING",
+              "minimum": 16.0,
+              "maximum": 16.0
+            },
+            "Stadtteile_nr": {
+              "valueType": "STRING"
+            },
+            "usage": {
+              "valueType": "STRING"
+            },
+            "yearOfConstruction": {
+              "valueType": "INTEGER",
+              "minimum": 0,
+              "maximum": 0
+            },
+            "description": {
+              "valueType": "STRING"
+            },
+            "storeyHeightsBelowGround": {
+              "valueType": "DOUBLE",
+              "minimum": 0.0,
+              "maximum": 0.0
+            },
+            "OTNR": {
+              "valueType": "INTEGER",
+              "minimum": 1,
+              "maximum": 1
+            },
+            "Str_schl": {
+              "valueType": "STRING"
+            },
+            "datBearbeitung": {
+              "valueType": "STRING"
+            },
+            "Stadtteile_name": {
+              "valueType": "STRING"
+            },
+            "ONR": {
+              "valueType": "STRING"
+            },
+            "measuredHeight": {
+              "valueType": "DOUBLE",
+              "minimum": 8.65,
+              "maximum": 20.75
+            },
+            "Quality": {
+              "valueType": "INTEGER",
+              "minimum": 3,
+              "maximum": 3
+            },
+            "function": {
+              "valueType": "STRING"
+            },
+            "ID": {
+              "valueType": "STRING"
+            },
+            "mittlGebHoehe_abs": {
+              "valueType": "STRING",
+              "minimum": 124.72,
+              "maximum": 124.72
+            },
+            "class": {
+              "valueType": "STRING"
+            },
+            "yearOfDemolition": {
+              "valueType": "INTEGER",
+              "minimum": 0,
+              "maximum": 0
+            },
+            "hausnr": {
+              "valueType": "STRING"
+            },
+            "storeyHeightsAboveGround": {
+              "valueType": "DOUBLE",
+              "minimum": 0.0,
+              "maximum": 0.0
+            },
+            "roofType": {
+              "valueType": "STRING"
+            },
+            "Typ": {
+              "valueType": "STRING"
+            },
+            "creationDate": {
+              "valueType": "STRING"
+            },
+            "Bearbeiter": {
+              "valueType": "STRING"
+            },
+            "Bemerkung": {
+              "valueType": "STRING"
+            },
+            "StoreyHeightsAboveGround": {
+              "valueType": "DOUBLE",
+              "minimum": 1.0,
+              "maximum": 2.0
+            },
+            "Str_name": {
+              "valueType": "STRING"
+            },
+            "groundHeight": {
+              "valueType": "STRING",
+              "minimum": 108.72,
+              "maximum": 108.72
+            },
+            "eaveHeight": {
+              "valueType": "DOUBLE",
+              "minimum": 20.75,
+              "maximum": 20.75
+            },
+            "StoreyHeightsBelowGround": {
+              "valueType": "DOUBLE",
+              "minimum": 0.0,
+              "maximum": 0.0
+            },
+            "extLieferant": {
+              "valueType": "STRING"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "mittlGebHoehe_rel": {
+          "valueType": "DOUBLE",
+          "minimum": 14.5,
+          "maximum": 16.0
+        },
+        "Stadtteile_nr": {
+          "valueType": "STRING"
+        },
+        "usage": {
+          "valueType": "STRING"
+        },
+        "yearOfConstruction": {
+          "valueType": "INTEGER",
+          "minimum": 0,
+          "maximum": 0
+        },
+        "description": {
+          "valueType": "STRING"
+        },
+        "storeyHeightsBelowGround": {
+          "valueType": "DOUBLE",
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "OTNR": {
+          "valueType": "INTEGER",
+          "minimum": 1,
+          "maximum": 1
+        },
+        "Str_schl": {
+          "valueType": "STRING"
+        },
+        "datBearbeitung": {
+          "valueType": "STRING"
+        },
+        "Stadtteile_name": {
+          "valueType": "STRING"
+        },
+        "ONR": {
+          "valueType": "STRING"
+        },
+        "measuredHeight": {
+          "valueType": "DOUBLE",
+          "minimum": 8.65,
+          "maximum": 20.75
+        },
+        "Quality": {
+          "valueType": "INTEGER",
+          "minimum": 3,
+          "maximum": 3
+        },
+        "function": {
+          "valueType": "STRING"
+        },
+        "mittlGebHoehe_abs": {
+          "valueType": "DOUBLE",
+          "minimum": 124.72,
+          "maximum": 129.41
+        },
+        "ID": {
+          "valueType": "STRING"
+        },
+        "class": {
+          "valueType": "STRING"
+        },
+        "yearOfDemolition": {
+          "valueType": "INTEGER",
+          "minimum": 0,
+          "maximum": 0
+        },
+        "hausnr": {
+          "valueType": "STRING"
+        },
+        "storeyHeightsAboveGround": {
+          "valueType": "DOUBLE",
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "roofType": {
+          "valueType": "STRING"
+        },
+        "Typ": {
+          "valueType": "STRING"
+        },
+        "Bearbeiter": {
+          "valueType": "STRING"
+        },
+        "creationDate": {
+          "valueType": "STRING"
+        },
+        "Bemerkung": {
+          "valueType": "STRING"
+        },
+        "StoreyHeightsAboveGround": {
+          "valueType": "DOUBLE",
+          "minimum": 1.0,
+          "maximum": 2.0
+        },
+        "Str_name": {
+          "valueType": "STRING"
+        },
+        "groundHeight": {
+          "valueType": "DOUBLE",
+          "minimum": 108.72,
+          "maximum": 114.91
+        },
+        "eaveHeight": {
+          "valueType": "DOUBLE",
+          "minimum": 11.5,
+          "maximum": 20.75
+        },
+        "StoreyHeightsBelowGround": {
+          "valueType": "DOUBLE",
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "extLieferant": {
+          "valueType": "STRING"
+        }
+      }
+    }
+  ],
+  "properties": {
+    "mittlGebHoehe_rel": {
+      "valueType": "DOUBLE",
+      "minimum": 14.5,
+      "maximum": 16.0
+    },
+    "Stadtteile_nr": {
+      "valueType": "STRING"
+    },
+    "usage": {
+      "valueType": "STRING"
+    },
+    "yearOfConstruction": {
+      "valueType": "INTEGER",
+      "minimum": 0,
+      "maximum": 0
+    },
+    "description": {
+      "valueType": "STRING"
+    },
+    "storeyHeightsBelowGround": {
+      "valueType": "DOUBLE",
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "OTNR": {
+      "valueType": "INTEGER",
+      "minimum": 1,
+      "maximum": 1
+    },
+    "Str_schl": {
+      "valueType": "STRING"
+    },
+    "datBearbeitung": {
+      "valueType": "STRING"
+    },
+    "Stadtteile_name": {
+      "valueType": "STRING"
+    },
+    "ONR": {
+      "valueType": "STRING"
+    },
+    "measuredHeight": {
+      "valueType": "DOUBLE",
+      "minimum": 8.65,
+      "maximum": 20.75
+    },
+    "Quality": {
+      "valueType": "INTEGER",
+      "minimum": 3,
+      "maximum": 3
+    },
+    "function": {
+      "valueType": "STRING"
+    },
+    "mittlGebHoehe_abs": {
+      "valueType": "DOUBLE",
+      "minimum": 124.72,
+      "maximum": 129.41
+    },
+    "ID": {
+      "valueType": "STRING"
+    },
+    "class": {
+      "valueType": "STRING"
+    },
+    "yearOfDemolition": {
+      "valueType": "INTEGER",
+      "minimum": 0,
+      "maximum": 0
+    },
+    "hausnr": {
+      "valueType": "STRING"
+    },
+    "storeyHeightsAboveGround": {
+      "valueType": "DOUBLE",
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "roofType": {
+      "valueType": "STRING"
+    },
+    "Typ": {
+      "valueType": "STRING"
+    },
+    "Bearbeiter": {
+      "valueType": "STRING"
+    },
+    "creationDate": {
+      "valueType": "STRING"
+    },
+    "Bemerkung": {
+      "valueType": "STRING"
+    },
+    "StoreyHeightsAboveGround": {
+      "valueType": "DOUBLE",
+      "minimum": 1.0,
+      "maximum": 2.0
+    },
+    "Str_name": {
+      "valueType": "STRING"
+    },
+    "groundHeight": {
+      "valueType": "DOUBLE",
+      "minimum": 108.72,
+      "maximum": 114.91
+    },
+    "eaveHeight": {
+      "valueType": "DOUBLE",
+      "minimum": 11.5,
+      "maximum": 20.75
+    },
+    "StoreyHeightsBelowGround": {
+      "valueType": "DOUBLE",
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    "extLieferant": {
+      "valueType": "STRING"
+    }
+  }
+}
