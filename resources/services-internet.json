@@ -289,7 +289,7 @@
     "typ": "Entities3D",
     "entities": [
       {
-        "url": "https://mainz.elie.de/resources/models/beach/high/model.gltf",
+        "url": "https://files.elie.de/models/beach/high/model.gltf",
         "attributes": {
           "name": "simple building in Planten und Blomen"
         },
@@ -304,7 +304,7 @@
         "show": true
       },
       {
-        "url": "https://mainz.elie.de/resources/models/beach/high/model.gltf",
+        "url": "https://files.elie.de//models/beach/high/model.gltf",
         "attributes": {
           "name": "simple building in Planten und Blomen"
         },
@@ -319,7 +319,7 @@
         "show": true
       },
       {
-        "url": "https://mainz.elie.de/resources/models/beach/high/model.gltf",
+        "url": "https://files.elie.de/models/beach/high/model.gltf",
         "attributes": {
           "name": "simple building in Planten und Blomen"
         },
@@ -341,7 +341,7 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966si",
     "name": "Gebäudemodell (LoD2 - Colors)",
-    "url": "https://mainz.elie.de/resources/tileset/MainzLOD2Colors",
+    "url": "https://files.elie.de/tileset/mainz/lod2_colors",
     "typ": "TileSet3D",
     "gfiAttributes": "showAll",
     "layerAttribution": "nicht vorhanden",
@@ -354,7 +354,7 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966sj",
     "name": "Gebäudemodell (LoD2 - Red Roofs)",
-    "url": "https://mainz.elie.de/resources/tileset/MainzLOD2RedRoofs",
+    "url": "https://files.elie.de/tileset/mainz/lod2_redroofs",
     "typ": "TileSet3D",
     "gfiAttributes": "showAll",
     "layerAttribution": "nicht vorhanden",
@@ -367,7 +367,7 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966sk",
     "name": "Gebäudemodell (LoD2 - No Lines)",
-    "url": "https://mainz.elie.de/resources/tileset/MainzLOD2NoLines",
+    "url": "https://files.elie.de/tileset/mainz/lod2_nolines",
     "typ": "TileSet3D",
     "gfiAttributes": "showAll",
     "layerAttribution": "nicht vorhanden",
@@ -380,7 +380,7 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966sl",
     "name": "Gebäudemodell (LoD3 - No Lines)",
-    "url": "https://mainz.elie.de/resources/tileset/MainzLOD3NoLines",
+    "url": "https://files.elie.de/tileset/mainz/lod3_nolines",
     "typ": "TileSet3D",
     "gfiAttributes": "showAll",
     "layerAttribution": "nicht vorhanden",
@@ -389,5 +389,46 @@
       "maximumScreenSpaceError": 10
     },
     "urlIsVisible": true
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sm",
+    "name": "Gelaende",
+    "url": "",
+    "typ": "Terrain3D",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "ignore",
+    "cesiumTerrainProviderOptions": {
+      "requestVertexNormals": true
+    },
+    "urlIsVisible": null
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94966sn",
+    "name": "Live - Trees",
+    "typ": "SensorThings",
+    "version": "1.1",
+    "url": "https://frost.elie.de/FROST-Server",
+    "intersect": true,
+    "maxSpeedKmh": 36,
+    "maxScaleForHistoricalFeatures": 40000,
+    "factor": 20,
+    "enableContinuousRequest": true,
+    "epsg": "EPSG:4326",
+    "gfiTheme": "default",
+    "gfiAttributes": "showAll",
+    "urlParameter": {
+      "expand": [
+        "Locations",
+        "Datastreams/Observations($top=1)",
+        "Datastreams/ObservedProperty"
+      ]
+    },
+    "mqttOptions": {
+      "host": "frost.elie.de",
+      "port": "1883",
+      "path": "",
+      "protocol": "wss"
+    },
+    "rotationUnit": "degree"
   }
 ]
