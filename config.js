@@ -34,7 +34,7 @@ const Config = {
             tileCacheSize: 20
         }
     },
-    startingMap3D: false,
+    startingMap3D: true,
     mouseHover: {
         numFeaturesToShow: 2,
         infoText: "(weitere Objekte. Bitte zoomen.)"
