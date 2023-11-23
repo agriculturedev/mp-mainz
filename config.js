@@ -27,7 +27,7 @@ const Config = {
             density: 0.0002,
             screenSpaceErrorFactor: 2.0
         },
-        fxaa: false,
+        fxaa: true,
         globe: {
             enableLighting: true,
             maximumScreenSpaceError: 2,
