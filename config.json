@@ -244,31 +244,52 @@
       ]
     },
     "Fachdaten": {
-      "Ordner": [],
+      "Ordner": [
+        {
+          "Titel": "Verkehr",
+          "Order": [],
+          "Layer": [
+            {
+              "id": "r6cn3bn9po5m4y6ru94966so"
+            },
+            {
+              "id": "r6cn3bn9po5m4y6ru94966sp"
+            }
+          ]
+        }
+      ],
       "Layer": [
         {
-          "id": "r6cn3bn9po5m4y6ru94966sa"
+          "id": "r6cn3bn9po5m4y6ru94966sa",
+          "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966sb"
+          "id": "r6cn3bn9po5m4y6ru94966sb",
+          "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966sc"
+          "id": "r6cn3bn9po5m4y6ru94966sc",
+          "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966sd"
+          "id": "r6cn3bn9po5m4y6ru94966sd",
+          "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966se"
+          "id": "r6cn3bn9po5m4y6ru94966se",
+          "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966sf"
+          "id": "r6cn3bn9po5m4y6ru94966sf",
+          "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966sg"
+          "id": "r6cn3bn9po5m4y6ru94966sg",
+          "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966sh"
+          "id": "r6cn3bn9po5m4y6ru94966sh",
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sn",
@@ -280,7 +301,8 @@
       "Ordner": [],
       "Layer": [
         {
-          "id": "testing123YAYAYA"
+          "id": "testing123YAYAYA",
+          "visibility": true
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966si",
