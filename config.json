@@ -244,11 +244,11 @@
           "Layer": [
             {
               "id": "r6cn3bn9po5m4y6ru94966so",
-              "visibility": true
+              "visibility": false
             },
             {
               "id": "r6cn3bn9po5m4y6ru94966sp",
-              "visibility": true,
+              "visibility": false,
               "transparency": 40
             }
           ]
@@ -257,39 +257,39 @@
       "Layer": [
         {
           "id": "r6cn3bn9po5m4y6ru94966sa",
-          "visibility": true
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sb",
-          "visibility": true
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sc",
-          "visibility": true
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sd",
-          "visibility": true
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966se",
-          "visibility": true
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sf",
-          "visibility": true
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sg",
-          "visibility": true
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sh",
-          "visibility": true
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sn",
-          "visibility": true
+          "visibility": false
         }
       ]
     },
@@ -298,7 +298,7 @@
       "Layer": [
         {
           "id": "testing123YAYAYA",
-          "visibility": true
+          "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966si",
@@ -318,7 +318,7 @@
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sm",
-          "visibility": true
+          "visibility": false
         }
       ]
     }
