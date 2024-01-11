@@ -239,41 +239,58 @@
     "Fachdaten": {
       "Ordner": [
         {
-          "Titel": "Verkehr",
+          "Titel": "Sensor Daten",
           "Order": [],
           "Layer": [
             {
-              "id": "r6cn3bn9po5m4y6ru94966so",
+              "id": "r6cn3bn9po5m4y6ru94966sn",
+              "styleId": "tree",
               "visibility": false
             },
             {
-              "id": "r6cn3bn9po5m4y6ru94966sp",
-              "visibility": false,
-              "transparency": 40
+              "id": "r6cn3bn9po6m4y6ru94976sn",
+              "styleId": "parkinglot",
+              "visibility": false
             }
           ]
         }
       ],
       "Layer": [
+
         {
-          "id": "r6cn3bn9po5m4y6ru94966sa",
-          "styleId": "tree",
+          "id": "lampen",
+          "name": "Lampen",
+          "children": [
+            {
+              "id": "r6cn3bn9po5m4y6ru94966sc",
+              "styleId": "lampe",
+              "visibility": false
+            },
+            {
+              "id": "r6cn3bn9po5m4y6ru94966sg",
+              "styleId": "lampe",
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "id": "r6cn5bn9po5m4y6ru94967sa",
+          "styleId": "new-tree",
           "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sb",
+          "styleId": "ladestation",
           "visibility": false
         },
-        {
-          "id": "r6cn3bn9po5m4y6ru94966sc",
-          "visibility": false
-        },
+
         {
           "id": "r6cn3bn9po5m4y6ru94966sd",
           "visibility": false
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966se",
+          "styleId": "b-parkplatz",
           "visibility": false
         },
         {
@@ -281,17 +298,23 @@
           "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966sg",
-          "visibility": false
-        },
-        {
           "id": "r6cn3bn9po5m4y6ru94966sh",
+          "styleId": "litfasssaeule",
+          "visibility": false
+        },
+
+
+        {
+          "id": "r6cn3bn9po5m4y6ru94966so",
+          "styleId": "stellplaetze",
           "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966sn",
-          "visibility": true
+          "id": "r6cn3bn9po5m4y6ru94966sp",
+          "visibility": false,
+          "transparency": 40
         },
+
         {
           "id": "r6cn3bn9po5m4y6ru94967sn",
           "visibility": false

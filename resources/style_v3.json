@@ -1,60 +1,195 @@
 [
-    {
-        "styleId": "tree",
-        "rules": [
-            {
-                "conditions": {
-                    "properties": [
-                        {
-                            "attrName": "Datastreams/0/Observations/0/result",
-                            "value": 3
-                        }
-                    ]
-                },
-                "style": {
-                    "circleFillColor": [139, 255, 100, 0.5]
-                  }
-            },
-            {
-                "conditions": {
-                    "properties": [
-                        {
-                            "attrName": "Datastreams/0/Observations/0/result",
-                            "value": 2
-                        }
-                    ]
-                },
-                "style": {
-                    "circleFillColor": [252, 186, 3, 0.5]
-                  }
-            },
-            {
-                "conditions": {
-                    "properties": [
-                        {
-                            "attrName": "Datastreams/0/Observations/0/result",
-                            "value": 1
-                        }
-                    ]
-                },
-                "style": {
-                    "circleFillColor": [255, 20, 20, 0.5]
-                  }
-            }
-        ]
-    },
+  {
+    "styleId": "tree",
+    "rules": [
+      {
+        "conditions": {
+          "properties": {
+            "@Datastreams.0.Observations.0.result": 4
+          }
+        },
+        "style": {
+          "circleFillColor": [
+            139,
+            0,
+            130,
+            0.5
+          ]
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "@Datastreams.0.Observations.0.result": 3
+          }
+        },
+        "style": {
+          "circleFillColor": [
+            139,
+            255,
+            100,
+            0.5
+          ]
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "@Datastreams.0.Observations.0.result": 2
+          }
+        },
+        "style": {
+          "circleFillColor": [
+            252,
+            186,
+            3,
+            0.5
+          ]
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "@Datastreams.0.Observations.0.result": 1
+          }
+        },
+        "style": {
+          "circleFillColor": [
+            255,
+            20,
+            20,
+            0.5
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "styleId": "parkinglot",
+    "rules": [
+      {
+        "conditions": {
+          "properties": {
+            "@Datastreams.0.Observations.0.result": false
+          }
+        },
+        "style": {
+          "type": "icon",
+          "clusterType": "icon",
+          "imageName": "parkinglot_free.svg",
+          "imageScale": 0.2,
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 1.25
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "@Datastreams.0.Observations.0.result": true
+          }
+        },
+        "style": {
+          "type": "icon",
+          "clusterType": "icon",
+          "imageName": "parkinglot_occupied.svg",
+          "imageScale": 0.2,
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 1.25
+        }
+      }
+    ]
+  },
+  {
+    "styleId": "new-tree",
+    "rules": [
+      {
+        "style": {
+          "circleFillColor": [
+            20,
+            250,
+            20,
+            0.5
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "styleId": "lampe",
+    "rules": [
+      {
+        "style": {
+          "circleFillColor": [
+            250,
+            20,
+            20,
+            0.5
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "styleId": "litfasssaeule",
+    "rules": [
+      {
+        "style": {
+          "circleFillColor": [
+            250,
+            20,
+            250,
+            0.5
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "styleId": "stellplaetze",
+    "rules": [
+      {
+        "style": {
+          "lineStrokeColor": [
+            0,
+            0,
+            255,
+            0.7
+          ]
+        }
+      }
+    ]
+  },
 
-    {
-        "styleId": "tree",
-        "rules": [
-            {
-                "conditions": {
-
-                },
-                "style": {
-                    "circleFillColor": [10, 10, 230, 0.5]
-                  }
-            }
-        ]
-    }
+  {
+    "styleId": "ladestation",
+    "rules": [
+      {
+        "style": {
+          "circleFillColor": [
+            20,
+            20,
+            250,
+            0.5
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "styleId": "b-parkplatz",
+    "rules": [
+      {
+        "style": {
+          "circleFillColor": [
+            20,
+            20,
+            250,
+            0.5
+          ]
+        }
+      }
+    ]
+  }
 ]
