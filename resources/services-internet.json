@@ -44207,16 +44207,78 @@
     "urlIsVisible": false
   },
   {
-    "id": "r6cn3bn9po5m4y6ru94966sm",
+    "id": "r6cn4bn9po5m4y6ru94966sm",
     "name": "Gelaende",
-    "url": "https://files.elie.de/tileset/mainz/gelaende",
+    "url": "https://files.elie.de/tileset/mainz/new_gelaende",
     "typ": "Terrain3D",
     "layerAttribution": "nicht vorhanden",
     "legendURL": "ignore",
     "cesiumTerrainProviderOptions": {
-      "requestVertexNormals": true
+      "requestVertexNormals": false
     },
     "urlIsVisible": null
+  },
+  {
+    "id": "23209",
+    "name": "Car auxiliary signal (beta)",
+    "url": "https://tld.iot.hamburg.de",
+    "typ": "SensorThings",
+    "version": "1.1",
+    "gfiAttributes": {
+      "Name": "Connection Name",
+      "Description": "Connection Description",
+      "Topic": "Topic",
+      "AssetID": "Asset ID",
+      "OwnerThing": "Connection Owner",
+      "InfoLastUpdate": "Connection last update",
+      "ConnectionID": "Connect ID",
+      "TrafficLightsID": "Traffic light ID",
+      "IngressLane": "Ingress lane",
+      "EgressLane": "Egress lane",
+      "LaneType": "Traffic participant",
+      "SignalGroupID": "Signal group",
+      "OwnerData": "Data owner",
+      "ServiceName": "Service Name",
+      "LayerName": "Layer name",
+      "DataStreamName": "Datastream name",
+      "DataStreamPhenomenonTime": "Phenomenon time",
+      "DataStreamValue": "Value"
+    },
+    "layerAttribution": "Sichtbar ab Maßstab 1:5000",
+    "legendURL": "https://daten-hamburg.de/zz_sonstiges/legenden/tlf_legend_auxiliary.png",
+    "datasets": [
+      {
+        "md_id": "AB32CF78-389A-4579-9C5E-867EF31CA225",
+        "csw_url": "https://metaver.de/csw",
+        "show_doc_url": "https://metaver.de/trefferanzeige?cmd=doShowDocument&docuuid=",
+        "rs_id": "https://registry.gdi-de.org/id/de.hh/fa5588ec-bc36-4070-8871-6bf69365fe79",
+        "md_name": "Traffic Lights Data Hamburg (beta)",
+        "bbox": "461468.96892897453,5916367.229806512,587010.9095989474,5980347.755797674",
+        "kategorie_opendata": [
+          "Verkehr"
+        ],
+        "kategorie_inspire": [
+          "kein INSPIRE-Thema"
+        ],
+        "kategorie_organisation": "Landesbetrieb Straßen, Brücken und Gewässer"
+      }
+    ],
+    "urlParameter": {
+      "root": "Things",
+      "filter": "Datastreams/properties/serviceName eq 'HH_STA_traffic_lights'and substringof('KFZ', properties/laneType) and Datastreams/properties/layerName eq 'auxiliary_signal'",
+      "expand": "Locations,Datastreams($top=1; $filter=properties/layerName eq 'auxiliary_signal';$expand=Observations($top=1;$orderby=phenomenonTime desc),ObservedProperty)"
+    },
+    "epsg": "EPSG:4326",
+    "gfiTheme": "default",
+    "styleId": "20657",
+    "loadThingsOnlyInCurrentExtent": true,
+    "mouseHoverField": [
+      "layerName",
+      "name",
+      "dataStreamValue",
+      "dataStreamPhenomenonTime"
+    ],
+    "urlIsVisible": true
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sn",
@@ -44228,40 +44290,36 @@
     "maxSpeedKmh": 36,
     "maxScaleForHistoricalFeatures": 40000,
     "factor": 20,
-    "enableContinuousRequest": true,
-    "epsg": "EPSG:4326",
+    "enableContinuousRequest": false,
     "gfiTheme": "default",
-    "gfiAttributes": {
-      "Id": "Id",
-      "DataStreamId": "DataStreamId",
-      "DataStreamName": "DataStreamName",
-      "DataStreamValue": "DataStreamValue",
-      "DataPhenomenonTime": "DataPhenomenonTime",
-      "Name": "Name",
-      "Description": "Description",
-      "@iot.id": "@iot.id",
-      "Datastreams": "Datastreams",
-      "RequestUrl": "RequestUrl",
-      "VersionUrl": "VersionUrl",
-      "Utc": "Utc",
-      "Geometry.stride": "Stride"
-    },
+    "styleId": "tree",
+    "gfiAttributes": "showAll",
+    "epsg": "EPSG:4326",
     "urlParameter": {
-      "expand": [
-        "Locations",
-        "Datastreams",
-        "Datastreams/Observations($top=1)",
-        "Datastreams/ObservedProperty"
-      ]
+      "root": "Things",
+      "expand": "Locations,Datastreams($expand=Observations($orderby=phenomenonTime desc;$top=1))"
     },
-    "mqttOptions": {
-      "host": "frost.elie.de",
-      "port": "1883",
-      "path": "",
-      "protocol": "wss"
-    },
-  
     "rotationUnit": "degree"
+  },
+  {
+    "id": "r6cn3bn9po5m4y6ru94967sn",
+    "name": "Test - FROST",
+    "typ": "GeoJSON",
+    "url": "http://localhost:8080/Things",
+    "styleId": "tree",
+    "altitudeMode": "clampToGround",
+    "gfiAttributes": {
+      "Description": "Description",
+      "Properties/ParkingLotId": "Parking lot id",
+      "Properties/ParkingSpaceId": "Parking space id",
+      "Datastreams/0/name": "Sensor type",
+      "Datastreams/0/description": "Sensor type description",
+      "Datastreams/0/Observations/0/phenomenonTime": "Latest measurement",
+      "Datastreams/0/Observations/0/result": "Latest result"
+    },
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "",
+    "gfiTheme": "default"
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966so",

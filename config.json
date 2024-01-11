@@ -214,7 +214,7 @@
       "mousePosition": true,
       "backForward": {},
       "fullScreen": true,
-      "rotation": {},
+      "rotation": true,
       "totalView": {},
       "button3d": true
     },
@@ -257,6 +257,7 @@
       "Layer": [
         {
           "id": "r6cn3bn9po5m4y6ru94966sa",
+          "styleId": "tree",
           "visibility": false
         },
         {
@@ -289,6 +290,10 @@
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sn",
+          "visibility": true
+        },
+        {
+          "id": "r6cn3bn9po5m4y6ru94967sn",
           "visibility": false
         }
       ]
@@ -302,23 +307,15 @@
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966si",
-          "visibility": false
-        },
-        {
-          "id": "r6cn3bn9po5m4y6ru94966sj",
-          "visibility": false
-        },
-        {
-          "id": "r6cn3bn9po5m4y6ru94966sk",
-          "visibility": false
+          "visibility": true
         },
         {
           "id": "r6cn3bn9po5m4y6ru94966sl",
           "visibility": false
         },
         {
-          "id": "r6cn3bn9po5m4y6ru94966sm",
-          "visibility": false
+          "id": "r6cn4bn9po5m4y6ru94966sm",
+          "visibility": true
         }
       ]
     }

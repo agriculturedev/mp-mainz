@@ -1,3 +1,60 @@
 [
+    {
+        "styleId": "tree",
+        "rules": [
+            {
+                "conditions": {
+                    "properties": [
+                        {
+                            "attrName": "Datastreams/0/Observations/0/result",
+                            "value": 3
+                        }
+                    ]
+                },
+                "style": {
+                    "circleFillColor": [139, 255, 100, 0.5]
+                  }
+            },
+            {
+                "conditions": {
+                    "properties": [
+                        {
+                            "attrName": "Datastreams/0/Observations/0/result",
+                            "value": 2
+                        }
+                    ]
+                },
+                "style": {
+                    "circleFillColor": [252, 186, 3, 0.5]
+                  }
+            },
+            {
+                "conditions": {
+                    "properties": [
+                        {
+                            "attrName": "Datastreams/0/Observations/0/result",
+                            "value": 1
+                        }
+                    ]
+                },
+                "style": {
+                    "circleFillColor": [255, 20, 20, 0.5]
+                  }
+            }
+        ]
+    },
 
+    {
+        "styleId": "tree",
+        "rules": [
+            {
+                "conditions": {
+
+                },
+                "style": {
+                    "circleFillColor": [10, 10, 230, 0.5]
+                  }
+            }
+        ]
+    }
 ]
