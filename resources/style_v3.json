@@ -171,9 +171,9 @@
           "clusterType": "icon",
           "imageName": "E-Charging-Icon.png",
           "imageScale": 0.07,
-          "imageOffsetX": 0,
-          "imageOffsetY": 0,
-          "clusterImageScale": 1.25
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 0.1
         }
       }
     ]
@@ -187,9 +187,9 @@
           "clusterType": "icon",
           "imageName": "Disabled-Icon.png",
           "imageScale": 0.07,
-          "imageOffsetX": 0,
-          "imageOffsetY": 0,
-          "clusterImageScale": 1.25
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 0.1
         }
       }
     ]
