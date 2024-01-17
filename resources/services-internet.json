@@ -425,7 +425,7 @@
   },
   {
     "id": "16102",
-    "name": "Strassenbaumkataster",
+    "name": "3D Bäume",
     "url": "https://files.elie.de/tileset/mainz/baeume",
     "typ": "TileSet3D",
     "gfiAttributes": "showAll",

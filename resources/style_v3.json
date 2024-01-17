@@ -10,22 +10,13 @@
         },
         "style": {
           "legendValue": "Gesundheitszustand - Frost",
-          "type": "circle",
-          "circleRadius": 8,
-          "circleFillColor": [
-            139,
-            0,
-            130,
-            0.5
-          ],
-          "clusterType": "circle",
-          "clusterCircleFillColor": [
-            139,
-            0,
-            130,
-            0.5
-          ],
-          "clusterCircleRadius": 10
+          "type": "icon",
+          "clusterType": "icon",
+          "imageName": "Tree_4.svg",
+          "imageScale": 0.45,
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 0.6
         }
       },
       {
@@ -37,22 +28,13 @@
 
         "style": {
           "legendValue": "Gesundheitszustand - Unbekannt",
-          "type": "circle",
-          "circleRadius": 8,
-          "circleFillColor": [
-            139,
-            139,
-            139,
-            0.5
-          ],
-          "clusterType": "circle",
-          "clusterCircleFillColor": [
-            139,
-            255,
-            100,
-            0.5
-          ],
-          "clusterCircleRadius": 10
+          "type": "icon",
+          "clusterType": "icon",
+          "imageName": "Tree_3.svg",
+          "imageScale": 0.45,
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 0.6
         }
       },
       {
@@ -65,22 +47,13 @@
         "style": {
 
           "legendValue": "Gesundheitszustand - Trocken",
-          "type": "circle",
-          "circleRadius": 8,
-          "circleFillColor": [
-            255,
-            20,
-            20,
-            0.5
-          ],
-          "clusterType": "circle",
-          "clusterCircleFillColor": [
-            255,
-            20,
-            20,
-            0.5
-          ],
-          "clusterCircleRadius": 10
+          "type": "icon",
+          "clusterType": "icon",
+          "imageName": "Tree_2.svg",
+          "imageScale": 0.45,
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 0.6
         }
       },
       {
@@ -91,22 +64,13 @@
         },
         "style": {
           "legendValue": "Gesundheitszustand - Trocknet aus",
-          "type": "circle",
-          "circleRadius": 8,
-          "circleFillColor": [
-            252,
-            186,
-            3,
-            0.5
-          ],
-          "clusterType": "circle",
-          "clusterCircleFillColor": [
-            252,
-            186,
-            3,
-            0.5
-          ],
-          "clusterCircleRadius": 10
+          "type": "icon",
+          "clusterType": "icon",
+          "imageName": "Tree_1.svg",
+          "imageScale": 0.45,
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 0.6
         }
       },
       {
@@ -117,22 +81,13 @@
         },
         "style": {
           "legendValue": "Gesundheitszustand - Gesund",
-          "type": "circle",
-          "circleRadius": 8,
-          "circleFillColor": [
-            20,
-            255,
-            20,
-            0.5
-          ],
-          "clusterType": "circle",
-          "clusterCircleFillColor": [
-            20,
-            255,
-            20,
-            0.5
-          ],
-          "clusterCircleRadius": 10
+          "type": "icon",
+          "clusterType": "icon",
+          "imageName": "Tree_0.svg",
+          "imageScale": 0.45,
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 0.6
         }
       }
     ]
@@ -181,22 +136,13 @@
     "rules": [
       {
         "style": {
-          "type": "circle",
-          "circleRadius": 8,
-          "circleFillColor": [
-            20,
-            250,
-            20,
-            0.5
-          ],
-          "clusterType": "circle",
-          "clusterCircleFillColor": [
-            20,
-            250,
-            20,
-            0.5
-          ],
-          "clusterCircleRadius": 10
+          "type": "icon",
+          "clusterType": "icon",
+          "imageName": "Tree_0.svg",
+          "imageScale": 0.45,
+          "imageOffsetX": 0.5,
+          "imageOffsetY": 0.5,
+          "clusterImageScale": 0.6
         }
       }
     ]
