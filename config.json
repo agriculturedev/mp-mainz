@@ -207,16 +207,16 @@
     },
     "controls": {
       "zoom": true,
-      "orientation": {
-        "zoomMode": "once"
-      },
-      "attributions": {},
+      "orientation": true,
+      "attributions": true,
       "mousePosition": true,
-      "backForward": {},
+      "backForward": true,
       "fullScreen": true,
       "rotation": true,
-      "totalView": {},
-      "button3d": true
+      "totalView": true,
+      "button3d": true,
+      "orientation3d": true,
+      "overviewMap": false
     },
     "portalTitle": {
       "title": "Mainz",
@@ -324,18 +324,12 @@
     "Fachdaten_3D": {
       "Ordner": [],
       "Layer": [
-        {
-          "id": "testing123YAYAYA",
-          "visibility": false
-        },
+
         {
           "id": "r6cn3bn9po5m4y6ru94966si",
           "visibility": true
         },
-        {
-          "id": "r6cn3bn9po5m4y6ru94966sj",
-          "visibility": true
-        },
+
         {
           "id": "r6cn3bn9po5m4y6ru94966sl",
           "visibility": false
@@ -343,6 +337,11 @@
         {
           "id": "r6cn4bn9po5m4y6ru94966sm",
           "visibility": true
+        },
+        {
+          "id": "16102",
+          "name": "Bäume",
+          "visibility": false
         }
       ]
     }
