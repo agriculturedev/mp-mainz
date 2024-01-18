@@ -337,7 +337,7 @@
         {
           "id": "16102",
           "name": "3D Bäume",
-          "visibility": false
+          "visibility": true
         }
       ]
     }
