@@ -237,24 +237,7 @@
       ]
     },
     "Fachdaten": {
-      "Ordner": [
-        {
-          "Titel": "Sensor Daten",
-          "Order": [],
-          "Layer": [
-            {
-              "id": "r6cn3bn9po5m4y6ru94966sn",
-              "styleId": "tree",
-              "visibility": false
-            },
-            {
-              "id": "r6cn3bn9po6m4y6ru94976sn",
-              "styleId": "parkinglot",
-              "visibility": false
-            }
-          ]
-        }
-      ],
+
       "Layer": [
 
         {
@@ -315,6 +298,24 @@
           "id": "r6cn3bn9po5m4y6ru94967sn",
           "visibility": false
         }
+      ],
+      "Ordner": [
+        {
+          "Titel": "Sensor Daten",
+          "Order": [],
+          "Layer": [
+            {
+              "id": "r6cn3bn9po5m4y6ru94966sn",
+              "styleId": "tree",
+              "visibility": false
+            },
+            {
+              "id": "r6cn3bn9po6m4y6ru94976sn",
+              "styleId": "parkinglot",
+              "visibility": false
+            }
+          ]
+        }
       ]
     },
     "Fachdaten_3D": {
@@ -337,6 +338,10 @@
         {
           "id": "16102",
           "name": "3D Bäume",
+          "visibility": true
+        },
+        {
+          "id": "123456",
           "visibility": true
         }
       ]

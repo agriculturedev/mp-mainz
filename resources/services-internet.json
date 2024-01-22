@@ -304,9 +304,9 @@
       "filter": "description eq 'Tree'"
     },
     "mqttOptions": {
-      "host": "https://ws.elie.de",
+      "host": "ws.elie.de",
       "port": "1883",
-      "path": "/mqtt",
+      "path": "/",
       "protocol": "wss"
     },
     "rotationUnit": "degree"
@@ -436,5 +436,92 @@
     },
 
     "urlIsVisible": true
+  },
+
+  {
+    "id": "123456",
+    "name": "3D Bäume Händisch",
+    "visibility": true,
+    "typ": "Entities3D",
+    "entities": [
+      {
+        "url": "https://files.elie.de/models/lowpoly/scene.gltf",
+        "attributes": {
+          "name": "simple building in Planten und Blomen"
+        },
+        "latitude": 50.002006,
+        "longitude": 8.271818,
+        "height": 90,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "scale": 1,
+        "allowPicking": true,
+        "show": true
+      },
+      {
+        "url": "https://files.elie.de/models/lowpoly/scene.gltf",
+        "attributes": {
+          "name": "simple building in Planten und Blomen"
+        },
+        "latitude": 50.002034,
+        "longitude": 8.271851,
+        "height": 90,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "scale": 1,
+        "allowPicking": true,
+        "show": true
+      },
+      {
+        "url": "https://files.elie.de/models/lowpoly/scene.gltf",
+        "attributes": {
+          "name": "simple building in Planten und Blomen"
+        },
+        "latitude": 50.002076,
+        "longitude": 8.271899,
+        "height": 90,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "scale": 1,
+        "allowPicking": true,
+        "show": true
+      },
+      {
+        "url": "https://files.elie.de/models/lowpoly/scene.gltf",
+        "attributes": {
+          "name": "simple building in Planten und Blomen"
+        },
+        "latitude": 50.00213,
+        "longitude": 8.271965,
+        "height": 90,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "scale": 1,
+        "allowPicking": true,
+        "show": true
+      },
+      {
+        "url": "https://files.elie.de/models/lowpoly/scene.gltf",
+        "attributes": {
+          "name": "simple building in Planten und Blomen"
+        },
+        "latitude": 50.002157,
+        "longitude": 8.271995,
+        "height": 90,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "scale": 1,
+        "allowPicking": true,
+        "show": true
+      }
+    ],
+    "gfiAttributes" : {
+      "name": "Name"
+    }
   }
 ]
