@@ -50,11 +50,11 @@
   {
     "id": "r6cn5bn9po5m4y6ru94967sa",
     "name": "Bäume",
-    "url": "https://geo.elie.de/geoserver/wfs",
-    "typ": "WFS",
-    "altitudeMode": "clampToGround",
-    "featureType": "mainz:baeume",
-    "version": "2.0.0",
+    "url": "https://geo.elie.de/geoserver/wms",
+    "typ": "WMS",
+    "supported": ["2D", "3D"],
+    "layers": "mainz:baeume",
+    "version": "1.3.0",
     "clusterDistance": 60,
     "gfiAttributes": {
       "GATTUNG": "Gattung",
@@ -62,64 +62,113 @@
       "POINT_X": "X",
       "POINT_Y": "y",
       "BAUMHOEHE": "Baumhoehe"
-    }
+    },
+
+    "visibility": true,
+    "featureCount": "1",
+    "format": "image/png",
+
+    "gfiTheme": "default",
+    "tilesize": 512,
+    "transparent": true,
+    "transparency": 0,
+    "layerAttribution": "nicht vorhanden",
+    "legend": "",
+    "minScale": "0",
+    "maxScale": "2500000"
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sb",
     "name": "E-Ladestationen",
-    "url": "https://geo.elie.de/geoserver/wfs",
-    "typ": "WFS",
-    "altitudeMode": "clampToGround",
+    "url": "https://geo.elie.de/geoserver/wms",
+    "typ": "WMS",
 
-    "featureType": "mainz:Ladestation",
-    "version": "2.0.0",
+    "layers": "mainz:Ladestation",
+    "version": "1.3.0",
     "gfiAttributes": {
       "FOLIE": "Folie",
       "OSCHL": "Oschl",
       "Arfassung": "Arfassung",
       "PunktNr": "Punkt Nummer",
       "Hoehe": "Hoehe"
-    }
+    },
+
+    "gfiTheme": "default",
+    "tilesize": 512,
+    "transparent": true,
+    "transparency": 0,
+    "layerAttribution": "nicht vorhanden",
+    "legend": "",
+    "minScale": "0",
+    "maxScale": "2500000"
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sc",
     "name": "Lampe",
-    "url": "https://geo.elie.de/geoserver/wfs",
-        "typ": "WFS",
+    "url": "https://geo.elie.de/geoserver/wms",
+        "typ": "WMS",
+    "supported": ["2D", "3D"],
     "altitudeMode": "clampToGround",
 
     "featureType": "mainz:Lampe",
-    "version": "2.0.0",
+    "version": "1.3.0",
     "gfiAttributes": {
       "OSCHL": "Oschl",
       "PunktNr": "Punkt Nummer",
       "Hoehe": "Hoehe"
-    }
+    },
+
+
+    "visibility": true,
+    "featureCount": "1",
+    "format": "image/png",
+
+    "gfiTheme": "default",
+    "tilesize": 512,
+    "transparent": true,
+    "transparency": 0,
+    "layerAttribution": "nicht vorhanden",
+    "layers": "mainz:Lampe",
+    "legend": "",
+    "minScale": "0",
+    "maxScale": "2500000"
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sg",
     "name": "Lampe über Straße",
-    "url": "https://geo.elie.de/geoserver/wfs",
-        "typ": "WFS",
-    "altitudeMode": "clampToGround",
+    "url": "https://geo.elie.de/geoserver/wms",
+    "typ": "WMS",
+    "supported": ["2D", "3D"],
 
-    "featureType": "mainz:lampeueberstrasse",
-    "version": "2.0.0",
+    "version": "1.3.0",
     "gfiAttributes": {
       "OSCHL": "Oschl",
       "PunktNr": "Punkt Nummer",
       "Hoehe": "Hoehe"
-    }
+    },
+
+    "visibility": true,
+    "featureCount": "1",
+    "format": "image/png",
+
+    "gfiTheme": "default",
+    "tilesize": 512,
+    "transparent": true,
+    "transparency": 0,
+    "layerAttribution": "nicht vorhanden",
+    "layers": "mainz:lampeueberstrasse",
+    "legend": "",
+    "minScale": "0",
+    "maxScale": "2500000"
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sh",
     "name": "Litfasssaeule",
-    "url": "https://geo.elie.de/geoserver/wfs",
-        "typ": "WFS",
-    "altitudeMode": "clampToGround",
+    "url": "https://geo.elie.de/geoserver/wms",
+        "typ": "WMS",
 
-    "featureType": "mainz:litfasssaeule",
-    "version": "2.0.0",
+    "layers": "mainz:litfasssaeule",
+    "version": "1.3.0",
     "gfiAttributes": {
       "FOLIE": "Folie",
       "OSCHL": "Oschl",
@@ -127,7 +176,17 @@
       "Erfasser": "Erfasser",
       "PunktNr": "Punkt Nummer",
       "Hoehe": "Hoehe"
-    }
+    },
+
+
+    "gfiTheme": "default",
+    "tilesize": 512,
+    "transparent": true,
+    "transparency": 0,
+    "layerAttribution": "nicht vorhanden",
+    "legend": "",
+    "minScale": "0",
+    "maxScale": "2500000"
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sd",
@@ -158,13 +217,21 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966se",
     "name": "Behindertenparkplatz",
-    "url": "https://geo.elie.de/geoserver/wfs",
-        "typ": "WFS",
-    "altitudeMode": "clampToGround",
+    "url": "https://geo.elie.de/geoserver/wms",
+        "typ": "WMS",
 
-    "featureType": "mainz:behinderten_p",
-    "version": "2.0.0",
-    "gfiAttributes": "none"
+    "layers": "mainz:behinderten_p",
+    "version": "1.3.0",
+    "gfiAttributes": "none",
+
+    "gfiTheme": "default",
+    "tilesize": 512,
+    "transparent": true,
+    "transparency": 0,
+    "layerAttribution": "nicht vorhanden",
+    "legend": "",
+    "minScale": "0",
+    "maxScale": "2500000"
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sf",
@@ -340,11 +407,10 @@
   {
     "id": "r6cn3bn9po5m4y6ru94966so",
     "name": "Stellplätze",
-    "url": "https://geo.elie.de/geoserver/wfs",
-        "typ": "WFS",
-    "altitudeMode": "clampToGround",
+    "url": "https://geo.elie.de/geoserver/wms",
+    "typ": "WMS",
 
-    "featureType": "mainz:AL123_polyline",
+    "layers": "mainz:AL123_polyline",
     "version": "2.0.0",
     "gfiAttributes": {
       "Strasse": "Strasse",
@@ -367,7 +433,16 @@
       "NurFeuerwe": "NurFeuerwe",
       "anderes": "anderes",
       "angepasst": "angepasst"
-    }
+    },
+
+    "gfiTheme": "default",
+    "tilesize": 512,
+    "transparent": true,
+    "transparency": 0,
+    "layerAttribution": "nicht vorhanden",
+    "legend": "",
+    "minScale": "0",
+    "maxScale": "2500000"
   },
   {
     "id": "r6cn3bn9po5m4y6ru94966sp",
