@@ -73,7 +73,7 @@
     "transparent": true,
     "transparency": 0,
     "layerAttribution": "nicht vorhanden",
-    "legend": "",
+    "legend": "https://geo.elie.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.3.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=mainz:baeume",
     "minScale": "0",
     "maxScale": "2500000"
   },
@@ -98,7 +98,7 @@
     "transparent": true,
     "transparency": 0,
     "layerAttribution": "nicht vorhanden",
-    "legend": "",
+    "legend": "https://geo.elie.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.3.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=mainz:Ladestation",
     "minScale": "0",
     "maxScale": "2500000"
   },
@@ -129,7 +129,7 @@
     "transparency": 0,
     "layerAttribution": "nicht vorhanden",
     "layers": "mainz:Lampe",
-    "legend": "",
+    "legend": "https://geo.elie.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.3.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=mainz:Lampe",
     "minScale": "0",
     "maxScale": "2500000"
   },
@@ -157,7 +157,7 @@
     "transparency": 0,
     "layerAttribution": "nicht vorhanden",
     "layers": "mainz:lampeueberstrasse",
-    "legend": "",
+    "legend": "https://geo.elie.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.3.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=mainz:lampeueberstrasse",
     "minScale": "0",
     "maxScale": "2500000"
   },
@@ -184,7 +184,7 @@
     "transparent": true,
     "transparency": 0,
     "layerAttribution": "nicht vorhanden",
-    "legend": "",
+    "legend": "https://geo.elie.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.3.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=mainz:litfasssaeule",
     "minScale": "0",
     "maxScale": "2500000"
   },
@@ -210,7 +210,7 @@
     "url": "https://geo.elie.de/geoserver/wms",
     "version": "1.3.0",
     "layers": "mainz:Denkmalzone",
-    "legend": "",
+    "legend": "https://geo.elie.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.3.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=mainz:Denkmalzone",
     "minScale": "0",
     "maxScale": "2500000"
   },
@@ -229,7 +229,7 @@
     "transparent": true,
     "transparency": 0,
     "layerAttribution": "nicht vorhanden",
-    "legend": "",
+    "legend": "https://geo.elie.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.3.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=mainz:behinderten_p",
     "minScale": "0",
     "maxScale": "2500000"
   },
@@ -254,7 +254,7 @@
     "url": "https://geo.elie.de/geoserver/wms",
     "version": "1.3.0",
     "layers": "mainz:flaechen_themen",
-    "legend": "",
+    "legend": "https://geo.elie.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.3.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=mainz:flaechen_themen",
     "minScale": "0",
     "maxScale": "2500000"
   },
@@ -411,7 +411,7 @@
     "typ": "WMS",
 
     "layers": "mainz:AL123_polyline",
-    "version": "2.0.0",
+    "version": "1.3.0",
     "gfiAttributes": {
       "Strasse": "Strasse",
       "PLZ": "PLZ",
@@ -440,7 +440,7 @@
     "transparent": true,
     "transparency": 0,
     "layerAttribution": "nicht vorhanden",
-    "legend": "",
+    "legend": "https://geo.elie.de/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.3.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=mainz:AL123_polyline",
     "minScale": "0",
     "maxScale": "2500000"
   },
