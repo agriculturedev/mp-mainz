@@ -14,7 +14,7 @@ RUN git clone --branch v2.49.0 https://bitbucket.org/geowerkstatt-hamburg/master
 RUN npm --prefix ./mp install
 
 # Copy the "portal" folder to /app/portal/portal
-RUN mkdir mp/porta/portal
+RUN mkdir mp/portal/portal
 
 COPY resources /app/mp/portal/portal
 COPY config.js /app/mp/portal/portal
