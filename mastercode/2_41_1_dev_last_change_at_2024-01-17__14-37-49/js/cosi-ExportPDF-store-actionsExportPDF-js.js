@@ -1,0 +1,11 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[294,299],{3757:function(O,j,d){var c=Object.defineProperty,u=Object.getOwnPropertyDescriptor,y=Object.getOwnPropertyNames,P=Object.prototype.hasOwnProperty,g=(r,e)=>{for(var n in e)c(r,n,{get:e[n],enumerable:!0})},w=(r,e,n,s)=>{if(e&&typeof e=="object"||typeof e=="function")for(let p of y(e))!P.call(r,p)&&p!==n&&c(r,p,{get:()=>e[p],enumerable:!(s=u(e,p))||s.enumerable});return r},h=r=>w(c({},"__esModule",{value:!0}),r),b={};g(b,{addChapter:()=>v}),O.exports=h(b);function v(r,e){const n={text:r.title,style:"header",bold:!0,fontSize:14},s={text:r.description,style:"header"},p={text:r.tool,style:"header"};let l="Quelleninformation fehlt.";if(r.output.sourceInfo&&(l=Object.values(r.output.sourceInfo).map(t=>{const a=t;return a.Abstrakt=t.Abstrakt.replace(/<p>/g,`
+`).replace(/<\/p>/g,`
+`),Object.values(a).map((o,_)=>Object.keys(a)[_]+": "+o)}),l=l.map(t=>[t,`
+`])),e.content.push(n),e.content.push(`
+`),e.content.push(s),e.content.push(`
+`),e.content.push(p),e.content.push(`
+`),r.output.type==="table"){const t=Object.keys(r.output.result[0]).map(o=>({border:[!1,!1,!1,!0],fillColor:"#dddddd",text:o})),a=r.output.result.map(o=>Object.values(o));e.content.push({table:{headerRows:1,body:[t,...a]},fontSize:8,pageBreak:"after"})}return r.output.type==="image"&&e.content.push({image:r.output.result,width:500,pageBreak:"after"}),e.content.push(`
+`),e.content.push(`
+`),e.content.push(`Datenquellen:
+
+`,l),e}},3864:function(O,j,d){var c=Object.create,u=Object.defineProperty,y=Object.getOwnPropertyDescriptor,P=Object.getOwnPropertyNames,g=Object.getPrototypeOf,w=Object.prototype.hasOwnProperty,h=(t,a)=>{for(var o in a)u(t,o,{get:a[o],enumerable:!0})},b=(t,a,o,_)=>{if(a&&typeof a=="object"||typeof a=="function")for(let f of P(a))!w.call(t,f)&&f!==o&&u(t,f,{get:()=>a[f],enumerable:!(_=y(a,f))||_.enumerable});return t},v=(t,a,o)=>(o=t!=null?c(g(t)):{},b(a||!t||!t.__esModule?u(o,"default",{value:t,enumerable:!0}):o,t)),r=t=>b(u({},"__esModule",{value:!0}),t),e={};h(e,{default:()=>l}),O.exports=r(e);var n=v(d(4385)),s=v(d(3757));function p(t,a){let o={content:[],pageOrientation:"landscape",pageSize:"A4"};for(const _ of a)o=(0,s.default)(_,o);n.default.createPdf(o).download("ReportTemplate.pdf")}var l={reportTemplateToPDF:p}}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[121],{4097:function(e){e.exports=JSON.parse('{"modules":{"tools":{"verkehrsfunctions":{"bicycleHeaderSuffix":"Number of bicycles","carsHeaderSuffix":"Number of cars","trucksHeaderSuffix":"Number of trucks"}}}}')}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[209],{4065:function(e){e.exports=JSON.parse('{"modules":{"tools":{"sessionTool":{"title":"Sitzungstool","uploadHeader":"Sitzung laden","buttonTextUpload":"Hochladen","buttonTextDownload":"Herunterladen","downloadHeader":"Sitzung speichern","errorOnLoad":"Beim hochladen ist ein Fehler aufgetreten!"}}}}')}}]);

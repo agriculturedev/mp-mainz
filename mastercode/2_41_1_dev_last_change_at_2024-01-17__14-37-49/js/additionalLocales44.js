@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[162],{3995:function(e){e.exports=JSON.parse('{"modules":{"tools":{"cosi":{"timeSeriesAnalyse":{"title":"Zeitreihenanalyse","count":"Anzahl","countLabel":"Anzahl der "}}}}}')}}]);

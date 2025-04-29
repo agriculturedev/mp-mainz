@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[147],{3967:function(e){e.exports=JSON.parse('{"modules":{"tools":{"cosi":{"reportTemplates":{"title":"Report Template","chooseTemplate":"Template w\xE4hlen"}}}}}')}}]);
