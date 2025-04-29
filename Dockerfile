@@ -19,6 +19,9 @@ COPY portal /app/mp/portal/portal
 # Build the project
 RUN npm --prefix ./mp run buildPortal
 
+RUN mkdir mastercode
+COPY mastercode /app/mastercode
+
 FROM httpd:2.4 AS final
 
 # Set working directory in the container
@@ -27,4 +30,4 @@ WORKDIR /usr/local/apache2/htdocs/
 # Copy specific folders from the build stage
 COPY --from=build /app/mp/dist/portal .
 COPY --from=build /app/mp/dist/build ./build
-COPY --from=build /app/mp/dist/mastercode ./mastercode
+COPY --from=build /app/mastercode ./mastercode
