@@ -1,5 +1,5 @@
 # Stage 1: Build Stage
-FROM node:22 AS build
+FROM node:18 AS build
 
 # Set working directory in the container
 WORKDIR /app
@@ -14,7 +14,7 @@ RUN git clone --branch v2.49.0 https://bitbucket.org/geowerkstatt-hamburg/master
 RUN npm --prefix ./mp install
 
 # Copy the "portal" folder to /app/portal/portal
-COPY . /app/mp/portal/portal
+COPY portal /app/mp/portal/portal
 
 # Build the project
 RUN npm --prefix ./mp run buildPortal
