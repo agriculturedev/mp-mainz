@@ -14,7 +14,10 @@ RUN git clone --branch v2.49.0 https://bitbucket.org/geowerkstatt-hamburg/master
 RUN npm --prefix ./mp install
 
 # Copy the "portal" folder to /app/portal/portal
-COPY portal /app/mp/portal/portal
+COPY resources /app/mp/portal/portal
+COPY config.js /app/mp/portal/portal
+COPY config.json /app/mp/portal/portal
+COPY index.html /app/mp/portal/portal
 
 # Build the project
 RUN npm --prefix ./mp run buildPortal
@@ -27,9 +30,6 @@ FROM httpd:2.4 AS final
 # Set working directory in the container
 WORKDIR /usr/local/apache2/htdocs/
 
-# Copy specific folders from the build stage
-COPY --from=build ./ .
-
-# COPY --from=build /app/mp/dist/portal .
-# COPY --from=build /app/mp/dist/build ./build
-# COPY --from=build /app/mastercode ./mastercode
+COPY --from=build /app/mp/dist/portal .
+COPY --from=build /app/mp/dist/build ./build
+COPY --from=build /app/mastercode ./mastercode
